@@ -1,0 +1,6 @@
+# Separate serving environment: Python 3.12, Linux and NVIDIA CUDA.
+# Let vLLM select its matched PyTorch build; do not install training requirements here.
+# See https://docs.vllm.ai/en/v0.27.1/getting_started/installation/gpu/
+vllm==0.27.1
+transformers==5.16.1
+sentence-transformers==6.0.1

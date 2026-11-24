@@ -1,0 +1,14 @@
+# Standalone training: Python 3.12, Linux and an NVIDIA CUDA GPU.
+# Install a compatible PyTorch CUDA build first, using https://pytorch.org/get-started/locally/.
+# This file does not select a CUDA build. Run `python -m pip check` after installation.
+torch>=2.5,<3
+transformers==5.16.1
+trl==1.12.0
+peft==0.20.0
+datasets==5.0.1
+accelerate==1.14.0
+sentence-transformers==6.0.1
+bitsandbytes==0.50.2
+numpy>=1.26
+
+# vLLM belongs in a separate environment: ../serving/requirements.txt.
